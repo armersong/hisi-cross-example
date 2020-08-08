@@ -1,0 +1,8 @@
+
+[target.armv7-unknown-linux-gnueabihf]
+linker = "arm-himix100-linux-gcc"
+#linker = "arm-linux-gnueabihf-gcc"
+
+[target.armv7-himix100-linux-gnueabihf]
+linker = "arm-himix100-linux-gcc"
+

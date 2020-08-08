@@ -1,0 +1,14 @@
+[package]
+name = "hello"
+version = "0.1.0"
+authors = ["armer song <armer_song@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#libc = "0.2"
+
+[profile.release]
+lto=true
+opt-level = "s"
