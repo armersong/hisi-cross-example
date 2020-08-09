@@ -1,6 +1,6 @@
 [build]
-target="armv7-himix100-linux-gnueabihf"
+target="armv7-unknown-linux-uclibc"
 
-[target.armv7-himix100-linux-gnueabihf]
+[target.armv7-unknown-linux-uclibc]
 linker = "arm-himix100-linux-gcc"
 
